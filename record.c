@@ -8,6 +8,8 @@
 #include "encrypt.h"
 #include "compress.h"
 
+char* strdup(const char* s);
+
 /* Create a new record */
 struct Record* create_record(unsigned int id, const char* data, unsigned long timestamp)
 {
