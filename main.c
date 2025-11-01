@@ -1,3 +1,25 @@
+/*
+Group Number: Mon_6pm_77
+Lab Number: Mon_6pm
+
+Compiling Instructions:
+To compile the program, run the following command in the terminal:
+
+    make
+
+This will generate the executable named 'medical_archiver' using the provided Makefile.
+To run the program, use one of the following command-line modes:
+
+    ./medical_archiver --add
+    ./medical_archiver --view
+    ./medical_archiver --search <term>
+    ./medical_archiver --delete <id>
+    ./medical_archiver --sort
+
+For more information, see the README attached to the report.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
